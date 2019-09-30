@@ -13,7 +13,7 @@
 
 ## 소개 (intro)
 
-## 일정 (calendar)
+## 일정 (schedule)
 
 ## TODO List 
 - 게시판 페이지 뷰 연결
