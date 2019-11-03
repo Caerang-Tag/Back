@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+]
+
+urlpatterns = [                     # main화면의 URL은 아직 미정, 현재 null.
+    path('', include('main.urls')),
 ]
