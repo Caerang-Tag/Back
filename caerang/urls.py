@@ -19,8 +19,6 @@ from django.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-]
-
-urlpatterns = [                     # main화면의 URL은 아직 미정, 현재 null.
-    path('', include('main.urls')),
+    path('', include('main.urls'), name='main'),
+    paht('schedule/', include('schedule.urls'), name='schedule'),
 ]

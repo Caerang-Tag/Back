@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'member',
     'board',
     'main',
+    'schedule',
 ]
 
 MIDDLEWARE = [
