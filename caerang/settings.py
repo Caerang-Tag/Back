@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     # 동아리 홈페이지...!
     'member',
     'board',
+    'main',
 ]
 
 MIDDLEWARE = [
