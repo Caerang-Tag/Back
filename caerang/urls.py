@@ -20,5 +20,5 @@ from django.urls import include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('main.urls'), name='main'),
-    paht('schedule/', include('schedule.urls'), name='schedule'),
+    path('schedule/', include('schedule.urls'), name='schedule'),
 ]
