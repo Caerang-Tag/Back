@@ -1,0 +1,204 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="board.css">
+    <title>Document</title>
+  <link href="{% static 'board.css' %}" rel="stylesheet">
+</head>
+
+<body>
+<header>
+        <!-----------Header----------->
+        <div class="wrapper">
+            <img id="logo" src="../logo.png" alt="">
+
+
+            <ul class="member">
+                    <li><a href="join">로그인</a></li>
+                    <li><a> | </a></li>
+                    <li><a href="join">회원가입</a></li>
+                </ul>
+
+                <ul class="menu">
+                    <li><a href="notice">공지사항</a></li>
+                    <li><a href="club_intro">동아리소개</a></li>
+                    <li><a href="board">게시판</a></li>
+                    <li><a href="schedule">일정</a></li>
+                </ul>
+
+
+
+        </div>
+</header>
+    <body>
+
+
+        <!--표 디자인 html-->
+        <setction class="container">
+            <nav class="nav-container">
+
+                <ul>
+                    <li><a href="qusetion.html">-질문게시판</a></li>
+                    <li><a href="free.html">-자유게시판</a></li>
+                    <li><a href="suggest.html"">-건의게시판</a></li>
+                    <li><a href="homework"">-과제 제출</a></li>
+                </ul>
+            </nav>
+            <span class="table-container">
+            <div class="search">
+
+                <select name="" id="select">
+                    <option value="all">전체기간</option>
+                    <option value="firsthalf">상반기</option>
+                    <option value="lasthalf">하반기</option>
+                </select>
+
+
+                <div id="query">
+                    <input type="text" name="query" placeholder="검색어를 입력해주세요">
+                    <button name="search_button" onclick></button>
+                </div>
+
+                <span id="write"><a href="write">글쓰기</a></span>
+            </div>
+                <table>
+                    <colgroup>
+                        <col width="50" />
+                        <col width="450" />
+                        <col width="100" />
+                        <col width="70" />
+                        <col width="70" />
+                    </colgroup>
+
+                    <!--바디-->
+                    <thead>
+                        <tr>
+                            <th class="thTeam" scope="col">팀명</th>
+                            <th class="thTitle" scope="col">제목</th>
+                            <th class="thDate" scope="col">등록일</th>
+                            <th class="thName" scope="col">작성자</th>
+                            <th  class="thCount" scope="col">조회수</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>태그</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라온</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라온</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>코어</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라뗴</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라뗴</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라뗴</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라뗴</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라뗴</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라뗴</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라뗴</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>라뗴</td>
+                            <td >제목</td>
+                            <td > 2019.09.27</td>
+                            <td > 팀장 </td>
+                            <td>4</td>
+                        </tr>
+
+
+                    </tbody>
+
+                    <!--버텀부-->
+                    <tfoot>
+                        <tr>
+                            <td colspan="5" class="tdFoot"> [이전]
+                                <a href="http://www.naver.com"> 1</a>
+                                <a href="http://www.naver.com"> 2</a>
+                                <b>3</b>
+                                <a href="http://www.naver.com"> 4</a>
+                                <a href="http://www.naver.com"> 5</a>
+                                [이후]
+                        </tr>
+                    </tfoot>
+                </table>
+
+
+            </span>
+
+        </setction>
+        <script src="{% static 'board.js' %}"></script>
+    </body>
+    <footer>
+        <div class="footer">
+            <p>copyright</p>
+        </div>
+    </footer>
+
+</html>

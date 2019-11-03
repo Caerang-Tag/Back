@@ -1,0 +1,160 @@
+/*헤더 푸터 부분*/
+*{
+    margin:0;
+    padding:0;
+ }
+ 
+ li{
+    list-style:none;
+ }
+ 
+ a{
+    text-decoration:none;
+ }
+ 
+ .member{
+    position: absolute;
+    right:15px;
+    top:5px;
+ 
+ }
+ .wrapper{
+    width:1400px;
+    margin:0 auto;
+    position: relative;
+ }
+ 
+ .clearfix{
+    content:'';
+    display:block;
+    clear:both;
+ 
+ }
+ 
+ header{
+    height:100px; 
+    background-color:rgba(0, 0, 0, 0.781);
+    width:100%;
+    z-index:9999;
+    top:0;
+    left:0;
+ }
+ 
+ h1{
+    color:white;
+    line-height:100px;
+    float:left;
+ }
+ .menu, .member{float:right;}
+ .menu li, .member li{float:left;}
+ .menu a{
+    line-height:100px;
+    color:white;
+    font-size: 25px;
+    padding:0 20px;
+    display: block;
+    text-decoration:none;
+ }
+ .member a{
+    color:rgba(255, 255, 255, 0.63);
+    padding:0 5px;
+    display:block;
+    text-decoration:none;
+ }
+ 
+ section{
+    font-size:30px;
+ }
+ .footer{
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:9999;
+    top:0;
+    height:100px; 
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.781);
+    color:white;
+    text-align: center;
+    line-height:100px;
+ }
+ /*헤더 푸터 부분 끝*/
+
+ #postTitle{
+     margin-left:20px;
+     margin-top:12px;
+     margin-bottom:15px;
+     width:500px;
+     height:15px;
+     padding: 5px 5px;
+     border:1px solid rgba(0, 0, 0, 0.349);
+     
+ }
+ .Post_head{
+     display:flex;
+     flex-direction: row;
+     width:602px;
+     justify-content: center;
+     margin:0 auto;
+     background-color:rgba(0, 0, 0, 0.055);
+ }
+ form{
+     display:flex;
+     flex-direction:column;
+ }
+ .Submit{
+     width:50px;
+     height:30px;
+     float:right;
+     margin-left: 300px;
+   
+ }
+ .Post_bottom{
+     display:flex;
+     flex-direction: row;
+     align-items: center;
+     margin:auto;
+     background-color: rgba(0, 0, 0, 0.055);
+ }
+ .Tag{
+     border:1px solid rgba(0, 0, 0, 0.336);
+     font-size:20px;
+     color:black;
+     margin-right:50px;
+ }
+ .TagLine{
+     display:flex;
+     flex-direction: column;
+ }/*태그 flex 정하기위해 만듬*/
+ #content{
+     font-size:20px;
+ }
+ select{
+    margin-left:5px;
+    background-color:rgba(0, 0, 0, 0.055);
+    border:1px solid rgba(0, 0, 0, 0.055);
+ }
+ textarea{
+    resize:none;
+ }
+#editor{
+    width:600px;
+    height:30px;
+ }
+ #writing{
+    width:600px;
+    height:300px;
+ }
+ .Post_body{
+    display:flex;
+    flex-direction: column;
+    margin:0 auto;
+ }
+
+ #suneditor_editor > div > div.se-toolbar.sun-editor-common{
+    width:600px;
+    height:150px;
+ }
+ #suneditor_editor > div > div.se-wrapper > div.se-wrapper-inner.se-wrapper-wysiwyg.sun-editor-editable{
+    min-height:300px;
+ }

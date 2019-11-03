@@ -1,0 +1,250 @@
+
+ 
+/*헤더 푸터 부분*/
+*{
+   margin:0;
+   padding:0;
+}
+
+li{
+   list-style:none;
+}
+
+a{
+   text-decoration:none;
+}
+
+.member{
+   position: absolute;
+   right:15px;
+   top:5px;
+
+}
+.wrapper{
+   width:1400px;
+   margin:0 auto;
+   position: relative;
+}
+
+.clearfix{
+   content:'';
+   display:block;
+   clear:both;
+
+}
+
+header{
+   height:100px; 
+   background-color:rgba(0, 0, 0, 0.781);
+   width:100%;
+   z-index:9999;
+   top:0;
+   left:0;
+}
+
+h1{
+   color:white;
+   line-height:100px;
+   float:left;
+   
+}
+.teamname{
+   margin-top:50px;
+}
+.menu, .member{float:right;}
+.menu li, .member li{float:left;}
+.menu a{
+   line-height:100px;
+   color:white;
+   font-size: 25px;
+   padding:0 20px;
+   display: block;
+   text-decoration:none;
+}
+.member a{
+   color:rgba(255, 255, 255, 0.63);
+   padding:0 5px;
+   display:block;
+   text-decoration:none;
+}
+
+section{
+   font-size:30px;
+}
+.footer{
+   left:0;
+   bottom:0;
+   right:0;
+   z-index:9999;
+   top:0;
+   height:100px; 
+   width:100%;
+   background-color: rgba(0, 0, 0, 0.781);
+   color:white;
+   text-align: center;
+   line-height:100px;
+}
+/*헤더 푸터 부분 끝*/
+
+ 
+
+table, th, td {border:1px solid #333333; border-collapse:collapse; padding:5px ;text-align: center;}
+
+/*표 전체 레이아웃 잡는부분*/
+
+thead { background-color: white ;}
+ 
+  
+/*버텀부*/
+
+tfoot { text-align:center;}
+ 
+ 
+/*tbody*/
+tbody a{ color:#333; }
+ 
+/*아직 링크 안넣음.*/
+tbody a:link{
+    font-size:10px;
+    text-decoration:none;
+ }
+tbody a:hover{ text-decoration:underline;}
+tbody a:active { font-size:13px; }
+tbody a:visited{
+    font-size:10px;
+    color:#333;
+    text-decoration:none;
+         
+ }
+
+ 
+ /*tfoot*/
+ 
+ tfoot a{ color:#06F; }
+ 
+ tfoot a:link{
+    font-size:12pt;
+    text-decoration:none;
+ }
+ tfoot b{
+     font-size:12pt;
+ }
+ tfoot a:visited{
+    font-size:12px;
+    text-decoration:none;
+         
+ }
+ tfoot a:hover{ text-decoration:underline;}
+ tfoot a:active { font-size:10px; }
+
+ .container{
+   display:flex;
+   flex-direction: row;
+   margin-bottom:150px;
+   justify-content: center;
+}
+.search{
+   background-color: #f9f9f8;
+   padding: 16px 0 16px;
+   text-align: center;
+   height:80px;
+   display:flex;
+   height:30px;
+   justify-content: Space-around;
+}
+ .search .select-component{
+    border:1px solid black;
+    border-collapse:collapse;
+ }
+ .search .search-area{
+    border:1px solid black;
+ }
+ .table-container{
+    display:flex;
+    flex-direction: column;
+    
+    margin-top:130px;
+    margin-left:140px;
+    border: 10px solid #f9f9f8;
+
+ }
+ #query{
+    display:flex;
+    flex-direction: row;
+ }
+ button{
+    padding:10px;
+ }
+ nav ul{ 
+    display:flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    padding: 13px;
+    background-color:#D3D3D3;
+    width:150px;
+    height:360px;
+    margin-top:9rem;
+ }
+ nav ul li{
+   font-size:16px;
+   padding-bottom:20px;
+   padding-top:20px;
+   text-align: center;
+   margin:auto;
+}
+ .nav-container{
+    display:flex;
+    flex-direction: column;
+    
+ }
+
+ 
+ ul a{
+    color:black;
+ }
+ nav ul a:hover{
+    border-bottom:2px solid rgba(0, 0, 0, 0.336);
+ }
+
+ .select_component{
+    float:left;
+    font-size:13px;
+    width:144px;
+    border:1px solid rgba(0, 0, 0, 0.336);
+    margin-right:10px;
+ }
+ .select_component a{
+    color:black;
+ }
+ #write{
+   border:1px solid rgba(0, 0, 0, 0.336);
+   float:right;
+   width:45px;
+   overflow-x:hidden;
+   overflow-y:hidden;
+   
+}
+#logo{
+   margin-top:10px;
+   width:82px;
+   height:82px;
+}
+ #write a{
+    font-size:13px;
+    color:black;
+    padding:3px;
+    
+ }
+
+ img{
+    width:30px;
+    height:15px;
+ }
+
+ #select{
+    margin-right:337px;
+ }
+ #query{
+    margin-right:60px;
+ }
