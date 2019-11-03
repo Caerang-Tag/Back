@@ -1,0 +1,216 @@
+/* [PERIOD SELECTOR] */
+#cal-date {
+margin: 10px 0;
+display:flex;
+flex-direction: row;
+justify-content: center;;
+}
+#cal-mth, #cal-yr, #cal-set {
+padding: 10px;
+font-size: 1.2em;
+border: 0;
+background: #ea4c4c;
+color: #fff;
+}
+
+/* [CALENDAR] */
+#calendar {
+width: 100%;
+border-collapse: collapse;
+}
+#calendar tr.head td {
+font-weight: bold;
+text-transform: uppercase;
+color: #fff;
+background: #f37070;
+padding: 15px;
+text-align: center;
+}
+#calendar tr.day td {
+border: 1px solid #ddd;
+width: 14.28%;
+padding: 0px 5px;
+padding-bottom: 40px;
+vertical-align: top;
+}
+#calendar tr.day td:hover {
+background: #fff9e4;
+}
+#calendar tr td.blank {
+background: #f5f5f5;
+}
+#calendar .dd {
+font-size: 1.2em;
+color: #999;
+}
+#calendar .evt {
+margin-top: 5px;
+font-size: 0.8em;
+font-weight: bold;
+overflow: hidden;
+color: #ff5d5d;
+}
+
+/* [ADD/EDIT EVENT] */
+#cal-event form {
+padding: 15px;
+margin-top: 20px;
+background: #f5f5f5;
+border: 1px solid #ddd;
+}
+#cal-event h1 {
+color: #333;
+padding: 0;
+margin: 0;
+}
+#evt-date {
+color: #999;
+margin: 10px 0;
+}
+#cal-event textarea {
+display: block;
+box-sizing: padding-box;
+width: 90%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ddd;
+resize: none;
+}
+#cal-event input[type=button], #cal-event input[type=submit] {
+padding: 10px;
+margin: 5px;
+font-size: 1.2em;
+border: 0;
+background: #ea4c4c;
+color: #fff;
+}
+
+/* [DOES NOT MATTER] */
+html, body, textarea, input{
+font-family: helvetica, sans-serif;
+}
+#page-body{
+max-width: 800px;
+display: flex;
+flex-direction: column;
+
+margin-left: 23rem;
+margin-bottom: 2rem;
+}
+
+/* 
+
+/* -------------------------header------------------------*/
+*{
+margin:0;
+padding:0;
+
+}
+
+
+li{
+list-style:none;
+}
+
+a{
+text-decoration:none;
+}
+
+.member{
+position: absolute;
+right:0px;
+top:5px;
+}
+.wrapper{
+width:1400px;
+margin:0 auto;
+position: relative;
+}
+
+.clearfix{
+content:'';
+display:block;
+clear:both;
+
+}
+
+header{
+height:100px; 
+background-color:rgba(0, 0, 0, 0.781);
+width:100%;
+z-index:9999;
+top:0;
+left:0;
+}
+
+h1{
+color:white;
+line-height:100px;
+float:left;
+}
+.menu, .member{float:right;}
+.menu li, .member li{float:left;}
+.menu a{
+line-height:40px;
+color:white;
+font-size: 23px;
+margin:35px 0px 0px 50px;
+display: block;
+text-decoration:none;
+}
+.member a{
+color:rgba(255, 255, 255, 0.63);
+margin:3px 0px 0px 8px;
+display:block;
+text-decoration:none;
+}
+
+
+
+.menu li a:hover{
+color:red;
+
+}
+
+.menu li ul{
+display:none;
+height:auto;
+position:absolute;
+z-index:9999;
+float:right;
+
+}
+
+.menu li:hover ul{
+display:block;
+color:red;
+}
+
+.menu li li{
+float: center;
+display:block;
+}
+
+.menu li ul a{
+color:white;
+display:block;
+text-align:center;
+font-size:17px;
+margin-left:18px;
+margin-right:0px;
+margin-top:0px;
+}
+/*----------------------------------------------*/
+.footer{
+left:0;
+bottom:0;
+right:0;
+z-index:9999;
+top:0;
+height:100px; 
+width:100%;
+background-color: rgba(0, 0, 0, 0.781);
+color:white;
+text-align: center;
+line-height:100px;
+}
